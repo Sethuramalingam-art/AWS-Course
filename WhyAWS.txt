@@ -1,0 +1,11 @@
+Types of cloud computing
+
+cloud computing models
+Iaas Infrastruture as a Service
+Paas Platform
+Saas Software 
+
+cloud computing deployment models
+cloud
+hybird
+onpremises
