@@ -1,0 +1,15 @@
+AWS infrasturcture is vitrual we can't see it
+
+So how to interact it?
+Using an AWS API => Application Programming Interface 
+
+ 3 ways to interact with AWS API
+ AWS console managment
+ AWS command line interface
+ AWS software dev kits
+
+ AWS console managment is web interface 
+
+ AWS command line interface 
+ AWS cloudshell => aws ec2 run-instances --image-id ami- --instance-type 
+                => aws s3api list-buckets list the s3 buckets in aws account
