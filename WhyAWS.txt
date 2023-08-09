@@ -1,4 +1,4 @@
-Types of cloud computing
+Types of cloud computing refer PDF (10 mins learn)
 
 cloud computing models
 Iaas Infrastruture as a Service
@@ -9,3 +9,31 @@ cloud computing deployment models
 cloud
 hybird
 onpremises
+
+
+AWS infrastructure 
+
+datas are in cloud means in AWS data centre anywhere in the world. If natural disater in data center 1 it is backed up by data center 2 
+REGIONS:
+so data center 1 data center 2 data center 3 are in availability zones are there in regions => one region have multiple availabilty zones => one availabilty zones have multiple
+data centers
+
+
+how to select a regions(india hyd or US)(locations of data centers):
+1.compliance
+2.latency
+3.pricing
+4.service availablity
+
+
+Reduce the latency -> important
+use case 1:
+
+When you host a web app in farest region and end user is accessing the app in long distance place. May or may not be latency will high.
+So for that reduce the latency we can use edge locations to cache frequently accessed app content. 
+When you cache the content in edge locations a copy is hosted in across edge locations in the locations. Reduce the latency
+
+AWS cloud front service is used for cache the content using an edge locations 
+
+
+
