@@ -1,0 +1,19 @@
+• Stephane Maarek's CCP Course: https://geni.us/udemy-stephane-ccp
+• Adrian Cantrill's Cloud Courses: https://geni.us/adrian-cantrill
+• Zero-To-Mastery CCP Course: https://academy.zerotomastery.io/a/af...
+• Zero-To-Mastery SAA Course: https://academy.zerotomastery.io/a/af...
+• Hands-on AWS Cloud Project Courses (Use "TECHWITHLUCY" for 20% off): https://www.aosnote.com/a/2147521386/...
+• AWS Skill Builder: https://skillbuilder.aws/
+
+// PRACTICE EXAMS:
+• Tutorials Dojo's CCP Udemy Practice Exams: https://geni.us/udemy-jon-bonso-ccp
+• Tutorials Dojo's SAA Udemy Practice Exams: https://geni.us/udemy-jon-bonso-saa
+
+
+https://www.udemy.com/course/aws-certified-cloud-practitioner-new/?ranMID=39197&ranEAID=GwD4o1ypM%2F8&ranSiteID=GwD4o1ypM_8-uGu4IfrnU7CPnPMehEnJzw&LSNPUBID=GwD4o1ypM%2F8&utm_source=aff-campaign&utm_medium=udemyads
+
+https://learn.cantrill.io/?affcode=212820_zn8-5by6
+
+https://zerotomastery.io/courses/learn-aws-cloud-practitioner/
+
+https://zerotomastery.io/courses/aws-certified-solutions-architect-bootcamp/
