@@ -1,9 +1,39 @@
+Cloud computing -> it is a on demand delivery of compute power, db storage, app's and other IT sources
+through a cloud services platform with pay-as-you-go pricing
+
+deployment models of the cloud
+1. private cloud => cloud services used by a single org. Not exposed to the public => rackspace
+2.public cloud => cloud resources operated by a third-party cloud service provider delivered over
+ the internet. => MS azure, Google cloud, AWS
+3. Hybird cloud => keep some servers on permises and extend some capabilities to the cloud
+
+5 characteristcis:
+ondemand self service:
+braod network access:
+multi-tenancy and resource pooling
+rapid elasticity and scalabilitiy
+measured service
+
+6 advantages
+1.Trade captial expense for operational expense
+Pay on demand
+reduced total cost of ownership
+2. prices are reduced as aws is more efficient due to alrge scale
+3.stop guessing capacity
+scale based on actal measured usage
+4.increase spead and agility
+5. stop spending money running and maintaining data centers
+6. go global in mins
+
+
+
 Types of cloud computing refer PDF (10 mins learn)
 
 cloud computing models
-Iaas Infrastruture as a Service
-Paas Platform
-Saas Software 
+Please find image => managed by aws 
+Iaas Infrastruture as a Service => provides building block for cloud IT. Provide n/w, computers, data storage space.high level of flexibility
+Paas Platform => removes the need for your organisation to manage the underlying infrastucture. Only focus on deployment and management of your app's
+Saas Software => complete product that runs and managed by the service provider
 
 cloud computing deployment models
 cloud
