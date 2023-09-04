@@ -66,4 +66,14 @@ When you cache the content in edge locations a copy is hosted in across edge loc
 AWS cloud front service is used for cache the content using an edge locations 
 
 
+AWS use cases 
+use cases includes:
+Enterprise, IT Backup storage big data analystics
+website hoisting mob and social apps
+gaming 
 
+AWS Infrastructure
+AWS regions 
+AWS Availability Zones
+AWS data centers
+AWS edge locations / Point of presence 
