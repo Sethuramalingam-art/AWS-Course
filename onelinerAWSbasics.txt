@@ -1,0 +1,34 @@
+Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, 
+and are used to deploy infrastructure? Avaliability zones
+
+data centers - regions
+
+nearby caching site - edge locations
+
+Paas Platform => removes the need for your organisation to manage the underlying infrastucture. Only focus on deployment and management of your app's .
+You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use? Paas
+
+Data transfer in the AWS Cloud is free.
+
+ The 4 points of considerations when choosing an AWS Region are: 
+compliance with data governance and legal requirements, 
+proximity to customers, available services and features within a Region, and pricing.
+
+Availability Zones are composed of one or more discrete data centers.
+Edge Locations are used to distribute content closer to users.
+AWS Regions are composed of? AWS Regions consist of multiple, isolated, and physically separate Availability Zones within a geographic area.
+
+Region -> 1 or more Availabilty zones
+Availability Zone -> one or moew data centers
+edge locations -> are used to distribute content closer to users.
+
+EC2 is a regional service.
+Rekognition is a regional service.
+IAM is a global service (encompasses all regions).
+
+The AWS Acceptable Use Policy describes prohibited uses of the web services offered by AWS.
+The Shared Responsibility Model defines who is responsible for what in the AWS Cloud.
+
+Using only the Private Cloud does not allow you to benefit from the advantages of the Public Cloud.
+Using a Hybrid Cloud deployment model allows you to benefit from the flexibility, scalability and on-demand 
+storage access while keeping security and performance of your own infrastructure
