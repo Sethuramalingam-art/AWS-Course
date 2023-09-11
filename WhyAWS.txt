@@ -32,7 +32,7 @@ Types of cloud computing refer PDF (10 mins learn)
 cloud computing models
 Please find image => managed by aws 
 Iaas Infrastruture as a Service => provides building block for cloud IT. Provide n/w, computers, data storage space.high level of flexibility
-Paas Platform => removes the need for your organisation to manage the underlying infrastucture. Only focus on deployment and management of your app's
+Paas Platform => removes the need for your organisation to manage the underlying infrastucture. Only focus on deployment and management of your app's .You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use? Paas
 Saas Software => complete product that runs and managed by the service provider
 
 cloud computing deployment models
