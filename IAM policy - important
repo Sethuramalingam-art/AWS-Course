@@ -1,0 +1,27 @@
+IAM policy sturcture :
+
+consists of 
+version - version of policy language(default)
+sid - identifier of policy
+statement: one or more indivstatements
+
+statement consists: 
+sid : identifier of statement
+effect : allow or deny -> whether the statement allows or denies access 
+principal : account/user/role which this policy applied to
+action: list of policy allows or denies-> S3: Getobject S3:putobject 
+resource: list of resources to which the actions applied to
+
+
+IAM password policy
+password
+MFA - Multi factor authentication 
+Users have access to your account and can possibly change configurations  or delete resources in your AWS account.
+So you want to protect your root accounts and IAM users
+MFA - password you know + security device you own 
+
+MFA authenticator device options
+virtual MFA device 
+google authenticator 
+
+
