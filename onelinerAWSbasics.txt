@@ -32,3 +32,7 @@ The Shared Responsibility Model defines who is responsible for what in the AWS C
 Using only the Private Cloud does not allow you to benefit from the advantages of the Public Cloud.
 Using a Hybrid Cloud deployment model allows you to benefit from the flexibility, scalability and on-demand 
 storage access while keeping security and performance of your own infrastructure
+
+
+Grant least priviage principal apply for IAM permissions
+
