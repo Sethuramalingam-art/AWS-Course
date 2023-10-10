@@ -1,0 +1,8 @@
+Classic ports to know
+
+22 = SSH Secure Shell  - log into Linux instance
+21 - FTP - File transfer protocol - upload files into a file share
+22 - SFTP - Secure File Transfer protocol  - upload files using SSH
+80 - HTTP - access unsecured websites
+443 - HTTPS - access secured websites
+3389 - RDP - Remote desktop protocol - log into windows instance
