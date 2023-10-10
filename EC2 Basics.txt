@@ -53,3 +53,13 @@ once launched there is there option to stop the instance because we have 750 hou
 callculated by aws and they wont bill you. 
 
 private ip wont change once launched but public ip may change
+
+
+in user data 
+we can have this text 
+
+yum update -y
+yum install  -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>My First AWS INSTANCE $(hostname -f)</h1> "> /var/www/html/index.html
