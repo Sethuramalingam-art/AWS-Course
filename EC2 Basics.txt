@@ -33,3 +33,23 @@ c5d.4xlarge (16 vCPU, 32GB, 1*400 NVMe SSD)
 
 SSH keys are a pair of public and private keys that are used to authenticate 
 and establish an encrypted communication channel between a client and a remote machine over the internet.
+
+create key pair: 
+keypair type - RSA
+private key file format => windows 10 : .pem or .ppk
+.pem => use with open SSH 
+
+
+network settings: 
+allow SSH traffic from
+allow HTTP traffic from
+
+configure EBS as simple 
+
+
+there is userdata option for run at first time of instance launched
+
+once launched there is there option to stop the instance because we have 750 hours free month. once you stopped hrs wont 
+callculated by aws and they wont bill you. 
+
+private ip wont change once launched but public ip may change
