@@ -1,0 +1,43 @@
+EC2 instance types: 
+
+AWS have namong conventions
+
+m5.2xlarge
+
+m-> instance class
+5: generation 
+2xlarge: size within a instance class
+
+EC2 instace types: General purpose
+balance between: 
+compute
+memory
+networking
+
+we are using basic instance which t2.micro is general purpose EC2 instance 
+
+EC2 instance type: compute optimized
+Ec2 instance type: Memory optimized
+Ec2 instance types: Storage optimized - use cases : Relation/ no SQL DB's and cache for inmemory DB's for ex: Redis
+
+
+Intro of Security Groups -> EC2 instance
+
+
+security groups work as firewall for EC@ instances
+it regulate 
+access to the ports
+Authorised IP ranges - IPV4 and IPv6
+Control of inbound network from other to the instance 
+Control of outbound network from the instance to other
+
+
+Good to know about security groups
+Can be attched to multiple instances
+locked down to a region / VPC  combination
+Dose live in outside the EC2 - if traffic is blocked EC2 instance wont be see it 
+
+it good to maintain one separate security group for SSH access 
+if your app is not accessiable then it's a secuirty gtp issue
+inbound traffic is blocked by default
+outbound traffic is authorised by default
