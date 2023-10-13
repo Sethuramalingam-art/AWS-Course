@@ -1,0 +1,19 @@
+SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, 
+particularly system administrators, a secure way to access a computer over an unsecured network.
+
+SSH also refers to the suite of utilities that implement the SSH protocol. 
+Secure Shell provides strong password authentication and public key authentication, 
+as well as encrypted data communications between two computers connecting over an open network, such as the internet.
+
+SSH supports for 
+MAC
+Linux
+windows version above 10
+
+for windows 7,8,9 => putty tool
+
+EC2 instance connect will work for everyone
+
+How to SSH into your EC2  Instance Windows 
+SSH is one of the most important function it allows you to control a remote machine, all using command line.
+we will configure all the required parameters neccessary for doing SSH on windows using the free toll putty
