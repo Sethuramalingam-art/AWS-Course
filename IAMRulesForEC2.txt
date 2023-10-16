@@ -1,0 +1,43 @@
+Once EC2 instance create we need to add IAM users for access the EC2 
+
+So in security groups=> there is option called modify IAM role 
+so we can attach the IAM role for EC2
+
+using CMD line we can use 
+
+aws --version
+aes configure
+aws iam list-users
+
+
+Ec2 summary
+
+EC2 instance - AMI OS  Instance Size (CPU+RAM) Storage Security groups EC2 User Data
+Secuirty groups - Firewall attached to the EC2 instance
+EC@ user data -> script laucned at first start of instance
+SSH - start a terminal into EC2 instace
+EC2 instance role - link to IAM roles
+
+
+one liner 
+
+Scheduled Instances are good when you only need a fraction of a day/week/month
+Which EC2 Purchasing Option can provide the biggest discount, but is not suitable for critical jobs or databases?
+Spot instances
+
+
+AWS is not responsible for patching EC2 Instances.
+
+Under the Shared Responsibility Model, who is responsible for operating-system patches and updates on EC2 Instances?
+The customer not AWS
+
+How long can you reserve an EC2 Reserved Instance?
+1 or 3 years
+
+Compute Optimized EC2 instances are great for compute-intensive workloads requiring high performance processors, 
+such as batch processing, media transcoding, high performance web servers, high performance computing, s
+cientific modeling & machine learning, and dedicated gaming servers.
+
+
+Which EC2 Purchasing Option should you use for an application you plan on running on a server continuously for 1 year?
+Reserved Instances
