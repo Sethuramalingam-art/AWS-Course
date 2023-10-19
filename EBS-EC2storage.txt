@@ -1,0 +1,8 @@
+EBS Elastic Book Store volume is a n/w drive you can attach to your instances while they run
+it allows your instances to presist data even after their termination
+they can only mounted to one instance at a time at CCP level. they are bound to a specific availiablity zone
+it is not a physical drive. network drive
+
+it is storage drive for new EC2 instance. When EC2 instance created - EBS 10 GB will create
+
+EB2 delete on termination attribute - > controls the EBS behaviour when an EC2 instance terminates 
