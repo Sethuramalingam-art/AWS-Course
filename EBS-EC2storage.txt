@@ -6,3 +6,10 @@ it is not a physical drive. network drive
 it is storage drive for new EC2 instance. When EC2 instance created - EBS 10 GB will create
 
 EB2 delete on termination attribute - > controls the EBS behaviour when an EC2 instance terminates 
+
+Create a new volume and attach it to created EC2 instance-> it should be a 2 or 8 GB 
+
+EBS snapshots - > make a backup snapshot of your EBS volume at a point time
+not necessary to detach volume to do snapshot but recommended
+cn copy snapshots across AZ or region
+
