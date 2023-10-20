@@ -19,3 +19,36 @@ Can be run on a schedule
 
 
 EC2 instance Store 
+EFS -> EC2 store system - n/w file system that can be mounted 100's of EC2
+EFS works with linux EC2 instance in multi-AZ
+
+
+
+
+EC2  Instance Storage  - Summary
+EBS volume 
+network drives attached to one EC2 instance at a time
+Mapped to availability zone
+can use EBS snapshots for backups/ transferring EBS volumes across AZ
+
+AMI used to ceare ready to use EC2 instances with our customizations
+EC2 image builder auto test build and distribute AMI's
+EC2 instance store -> high perfoemance  h/w disk attached to our EC2 instance
+lost if our instance is stopped/ terminated
+
+EFS network file system, can be attached 100s of instances in a region
+EFS-IA
+FSx for windows
+
+
+Amazon Machine Image (AMI) provides the information required to launch an instance, but it is not an automated image management process service.
+
+Which service can be used to automate image management processes? - EC2 Image Builder is an automated pipeline for the creation, maintenance, validation, sharing, and deployment of Linux or Windows images for use on AWS and on-premises.
+
+You cannot use AMIs to add your IP addresses. IP addresses are added to an instance as you create it.
+
+EBS Volumes can be attached to only one EC2 Instance, but EC2 Instances can have multiple EBS Volumes attached to them.
+
+EBS Volumes allows instances' data to persist even after their termination.
+
+EC2 Instance Stores are good to cache content.
