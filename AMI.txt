@@ -10,3 +10,12 @@ AMI process - > once start the EC2 we can customize it
 stop the instance for data integratiy
 Build an AMI this will also create EBS snapshots
 Launch instances from other AMI's
+
+
+EC2 image builder
+used to automate the creation of VM's or Container images
+automate the creation maintain validate and test EC2 AMI's
+Can be run on a schedule
+
+
+EC2 instance Store 
