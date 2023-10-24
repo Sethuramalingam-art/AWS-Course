@@ -10,3 +10,26 @@ load balancer multi AZ
 
 
 what is load balancing?
+load balancers are servers that forward internet traffic to multiple servers(EC2 instances) downstream.
+user1 ---->request -> load balancer1 -> EC2 instance1
+user2 ----> request -> laod balancer1 -> EC2 instance2
+user3 ---->request -> laod balancer1 -> EC2 instance3
+
+
+Here AWS using Elastic Load Balancer ELB that is managed  load balancer
+ELB is for 
+1.spread load across multiple downstream instances
+2.Expose a single point of access DNS for app's
+3.Seamlessly handle failures of dowmstream instances
+4.Do regular health checkup to your instances
+5.Provide SSL termination and high availibilty across zones
+
+
+4 kinds of Load balancer
+Application load balancer HTTP/HTTPs - layer 7 - Http Http's gRPC, routing features, static DNS URL
+netwrok laod balancer ultra high performance, allows for TCP - layer 4 - TCP protocol, millions of requests per sec's 
+gateway load balancer - layer 3
+classic load balancer - layer 4&7
+
+
+ALB - App Load Balancer -> create EC2 instnace and attaach it
