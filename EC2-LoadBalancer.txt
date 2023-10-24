@@ -33,3 +33,25 @@ classic load balancer - layer 4&7
 
 
 ALB - App Load Balancer -> create EC2 instnace and attaach it
+
+
+ASG => Auto Scaling Group 
+in real life the load on your websites and app can change
+in the cloud you can create and rid of servers very quickly
+goal of auto scaling group => 
+
+Scale Out auto add EC2 instance increased load
+Scale In remove EC2 instance decreased laod
+encure we have min and max no of machines running
+
+
+
+ASG - scaling strategies
+manual
+automatic
+predictive 
+
+
+An Elastic Load Balancer is used to spread the load across downstream instances, not handling quickly and automatically the changing load on your applications and websites.
+
+An Auto Scaling Group (ASG) can automatically and quickly scale-in and scale-out to match the changing load on your applications and websites
