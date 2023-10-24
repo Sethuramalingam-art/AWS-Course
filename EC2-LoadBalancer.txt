@@ -1,0 +1,12 @@
+vertical scalability -> increase the db size ex. t2.micro to t2.large - memory size
+horizantal scalability -> increase the number of instances for our app's  => Auto scaling group, Load balancer 
+
+horizantal scalability -> implies distributed systems
+this is very common for web app's
+
+availability => Run isntaces for the same application across multi Availabity zones    
+Auto scaling group multi AZ
+load balancer multi AZ
+
+
+what is load balancing?
