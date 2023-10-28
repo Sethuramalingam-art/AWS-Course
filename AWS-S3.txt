@@ -1,5 +1,5 @@
 S3 advertised as infinite scaling storage
-
+S3 -  Simple Storage Service
 use cases:
 backup and storage
 disater recovery
@@ -8,3 +8,92 @@ hybrid cloud storage
 app hosting and media hosting
 s/w delivery
 static website
+
+
+AWS S3 buckets store files in the name of objects 
+it have unique name all over the region's
+it is defined at region level
+S3 looks like a global service but buckets are created in a region 
+
+
+Objects have a key
+the key is full path
+s3://my-bucket/my_file.txt
+s3://my-bucket/my_folder/another_folder/my_file.txt
+the key is composed of prefix + object name
+/my_folder/another_folder - prefix
+/my_file.txt - object name (file name)
+
+
+
+Object values are the content of the body
+max.Object size is 5TG (5000GB)
+if uploading more than 5GB must be the multi upload
+
+Metadata (list of text key/ value pairs)
+Tags - useful for secuirty / life cycle
+version ID  
+
+
+AWS S3 - Security policies 
+User Based : IAM policy
+Resource Based : Bucket policy -> Object Access control list (ACL) Bucket Access control list 
+Encryption : encrypt objects in aws S3 using encryption keys
+
+
+
+s3 bucket policy
+JSON based policies 
+
+it is a policy for S3
+{
+'version': '2023-10-28',
+'statement': [
+{
+'Sid': 'Public Road',
+'Effect': 'Allow',
+'Principal': '*',
+'Action': [
+'s3:GetObject'
+],
+'Resource':[
+'arn:aws:s3:::examplebucket/*'
+]
+}
+]
+}
+
+Resources : bucket and policies
+Effect: Allow/ Deny
+Actions: Set of API to Allow/ Deny
+Principal: the account or user to apply the policy to
+
+Use S3 bucket for policy to: 
+Grant public access to the bucket
+force objects to be encrypted at upload 
+grant access to anothe account 
+
+
+using and policy generater we can able to generate the policy
+
+
+AWS S3 - Static Web Hosting
+
+S3 can host static websites and have them accessilble on the internet
+website URL will be (depending on the region)
+http://bucket-name.s3-website-aws-region.amazonaws.com
+
+
+
+Create bucket -> add image into it -> and bucket have properties -> properties have static web hoisting
+
+static web hositing -> enable it -> we need to add index.html -> now we can access 
+
+
+AWS S3 versioning 
+
+you can version your files in aws S3
+it is enabled at the bucket level
+
+
+
