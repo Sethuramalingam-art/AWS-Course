@@ -1,1 +1,10 @@
+S3 advertised as infinite scaling storage
 
+use cases:
+backup and storage
+disater recovery
+archive
+hybrid cloud storage
+app hosting and media hosting
+s/w delivery
+static website
