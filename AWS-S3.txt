@@ -96,4 +96,50 @@ you can version your files in aws S3
 it is enabled at the bucket level
 
 
+AWS S3 - Replication (CRR & SRR)
+S3 Bucket(eu-west-1) Source one region ===> (asyn replication) ===> S3 Bucket (us-east-2) Destination diff region
+must enable versioning in source and destination buckets
+Cross Region Replication CRR
+Same Region Replication SRR
+Buckets can be in diff AWS accounts
+copying in async
+must give proper IAM permissions to S3
+
+use cases:
+CRR - Compliance, lower latency access, replication across acc's
+SRR - log aggragation, live replication b/w prod and test acc's
+
+
+S3 Storage Classes
+AWS S3 Standard - Gen Purpose
+AWS S3 Standard - Infrequent Access
+AWS S3 one zone - Infrequent Access
+AWS S3 Glacier instant retrieval
+
+
+
+S3 Durability and availibilty
+
+Durability 
+
+
+S3 Encryption
+Server side encrytion - by default ==> when object upload in S3 bucket it will automatically encrypt by server 
+Client side encrption -> before upload object it should encrypted and upload 
+
+
+IAM access analyser for s3
+Ensures that only intended people have access to ur S3 buckets
+publicly accessed buckets, bucket shared with other aws account
+S3 bucket policies 
+powered by IAM analyzer 
+
+
+shared aws responsiilty model for S3
+as a user -> s3 versioning, bucket policies, replication setup, logging and monitoring, s3 storage classes, encryption
+
+AWS snow family
+high secure, portable devices to collect and process data at the edge  and migrate  data into and out of AWS 
+
+Cirect uplaod to S3 
 
