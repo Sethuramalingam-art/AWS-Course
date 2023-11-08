@@ -140,6 +140,39 @@ as a user -> s3 versioning, bucket policies, replication setup, logging and moni
 
 AWS snow family
 high secure, portable devices to collect and process data at the edge  and migrate  data into and out of AWS 
+using diff types of devices
+aws snowcone
+aws snowball
+aws snowmobile
 
 Cirect uplaod to S3 
 
+AWS storage cloud native options
+Block storage => AWS EBS, EC2 instance store
+File storage => Aws EFS
+Object storage => aws S3, Glacier 
+
+
+AWS storage Gateway
+bridge b/w on-premise data and cloud data in s3
+hybird storage service to allow on-premises to seemlessly use the aws cloud
+use cases : disater recovery, backup & restore, tiered storage 
+
+Types of storage gateway
+file gateway
+volume gateway
+tape gateway
+
+storage gateway is used for bridge our file system and our storage cloud native options in aws cloud 
+
+
+S3 summary(Important)
+Buckets vs Objects => global unique name , tied to a region
+S3 secuirty=> IAM policies, S3 bucket policy(public access), S3 encryption
+S3 website=> host a static websites on amazon S3
+S3 versioning => multiple versions of files, prevent accidental deletes
+S3 replication => same-region, cross region must enable versioning
+S3 storage classes => Standard, IA, IZ-IA , intelligent , glacier
+Snow family => import data on S3 through physical device, edge computing
+OpsHub => desktop app's to manage snow family devices
+Storage gateway => hybird solution to extend on-premises storage to S3
