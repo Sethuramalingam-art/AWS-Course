@@ -1,1 +1,44 @@
+Databases Intro
+Storing data on disk (EFS, EBS, EC2 instance store, S3) can have limits
+somtimes you want ot store in databases
+you can structure the data
+you build indexes to effeicitenly query/ search through the data 
+build the relataionships b/w our datasets
+
+types of Databases
+Relational Databases
+no SQL Databases
+
+Databases & shared responsibility on AWS
+AWS offers use to manage different databases
+benefits
+Quick provisioning high availabilty vertical and horizantal scaling
+automated backup restore oprationg and upgrades
+monitoring and alreting
+
+note: many databases tech's could be run on EC2 , but you must handle yourself the resiliency , backup, patching. high availabilty , fault tolernace,scaling...,
+
+
+AWS RDS overview
+RDS stands for relational Database service
+it's managed DB service for DB use SQL as a query language
+it allows you to create databases in the cloud that are managed by AWS
+Postgres
+MySQL
+MariaDB
+Oracle
+MS SQL server
+Aurora(AWS Proprietary database)
+
+Advantage over using RDS versus deploying  DB on EC2
+RDS is a managed service
+automated provisioning OS patching 
+continous backups and restore to specific  timestamp
+Monitoring dashboards
+Read replicas for improved read performance
+Multi AZ setup for Disater Recovery
+Maninataence windows for upgrades
+scaling upgrades, scaling capability  vertical and horizontal
+storage backed by EBS (gp2 or io l)
+But you can't SSH into your instances
 
