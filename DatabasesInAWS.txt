@@ -42,3 +42,7 @@ scaling upgrades, scaling capability  vertical and horizontal
 storage backed by EBS (gp2 or io l)
 But you can't SSH into your instances
 
+
+RDS solution architecture
+Elastic load blanacer -> EC2 -> (read/ write) -> Amazon RDS (SQL relational Database)
+
