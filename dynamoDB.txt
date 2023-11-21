@@ -1,0 +1,10 @@
+DynamoDB
+fully mamanged highly available with replication across 3 AZ
+  NoSQL database - not a relational database
+  scale to massive work loads, distributed serverless database
+  millions of requests per seconds trillions of row, 100s of TB of storage
+  fast and consistent in performance
+  single digit milli second latency - low latency reteivel
+    integrarted with IAM for security authorizATION AND ADMINISTRATION
+    low cost and auto scaling capabitlites
+    standard and infrquent access IA Table class
