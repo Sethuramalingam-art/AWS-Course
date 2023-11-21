@@ -46,3 +46,16 @@ But you can't SSH into your instances
 RDS solution architecture
 Elastic load blanacer -> EC2 -> (read/ write) -> Amazon RDS (SQL relational Database)
 
+
+Aurora(AWS Proprietary database) -> not open sourced
+Postgresql and MYSQL are both supported as Aurora DB
+it storage grows incrment of 10 GB upto 128TB
+Aurora costs more than RDS 20% more but is more efficient
+
+Amazon Aurora Serverless
+automated database insantiation and auto scaling based on actual stage
+postgres and mysql are both supported as auroara serverless DB
+no capacity planning needed
+least management overhead
+Pay per second, can be more cost effective
+
