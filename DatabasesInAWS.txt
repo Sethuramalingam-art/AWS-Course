@@ -83,7 +83,7 @@ Data is read/write only in main DB
 multiregions also it will deployment
 
 
-Elastic Cache overview
+Elastic Cache overview(inmemory db)
 same way RDS is to get managed relational databases
 Elastic cache is to get managed Redis or memcaches
 caches are inmemory databases with high performances and low latencies
