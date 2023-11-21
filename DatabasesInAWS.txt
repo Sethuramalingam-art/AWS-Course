@@ -59,3 +59,29 @@ no capacity planning needed
 least management overhead
 Pay per second, can be more cost effective
 
+
+As usal we can create the RDS service in aws and we can choose which type of sql servers
+mysql/ ms sql/ mariadb/ aurora
+
+there is a option to take a db snapshot
+
+
+
+once created RDS we need deployments 
+
+RDS deployments: Read replica's, multi-AZ
+
+Read replica's 
+scale the read workload of your DB
+Can create upto 15 read replicas
+data is only written o mainDB
+
+multi-AZ
+Failover in case of AZ outage
+Data is read/write only in main DB
+
+multiregions also it will deployment
+
+
+
+
