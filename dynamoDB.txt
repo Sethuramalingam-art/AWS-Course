@@ -1,4 +1,4 @@
-DynamoDB
+DynamoDB - like mongodB in AWS 
 fully mamanged highly available with replication across 3 AZ
   NoSQL database - not a relational database
   scale to massive work loads, distributed serverless database
@@ -8,3 +8,18 @@ fully mamanged highly available with replication across 3 AZ
     integrarted with IAM for security authorizATION AND ADMINISTRATION
     low cost and auto scaling capabitlites
     standard and infrquent access IA Table class
+
+it have two keys partition(may or may not unique) and sort key(always unique)
+
+DynamoDB- Global Tables
+make dynamoDB table accessible with low latency in multiple regions
+active-active replication (read/write to any region)
+
+
+Red shift -> postGreSQL in AWS -> serverless 
+run queries automatically provision and scale capacity based on work loads 
+
+
+Amazon EMR -> Elastic MapREduce -> help to create Hadoop clusters(Big Data) to analyze and process vast amt of data
+this clusters are made by hundred of EC2 instances
+use cases: data processing, web indexing, big data, machine learning
