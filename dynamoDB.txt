@@ -1,4 +1,4 @@
-DynamoDB - like mongodB in AWS 
+DynamoDB
 fully mamanged highly available with replication across 3 AZ
   NoSQL database - not a relational database
   scale to massive work loads, distributed serverless database
