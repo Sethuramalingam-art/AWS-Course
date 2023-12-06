@@ -2,7 +2,7 @@ List of Databases in AWS
 Relations Database : OLTP: RDS & Aurora(SQL)
 Difference b/w multi-AZ Read Replicas multi region
 In-memory DB- Elastic Cache
-key/value database : DynamoDB (serverless)   & DAX (cache fr DynamoDB)
+key/value database : DynamoDB (serverless)   & DAX (cache fr DynamoDB) Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for Amazon DynamoDB that delivers up to a 10 times performance improvement—from milliseconds to microseconds—even at millions of requests per second.
 Warehouse-OLAP: Redshift(SQL)
 Haddop cluster : EMR
 Athena: query data on S3 (Serverless & SQL)
