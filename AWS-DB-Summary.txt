@@ -1,0 +1,12 @@
+List of Databases in AWS 
+Relations Database : OLTP: RDS & Aurora(SQL)
+Difference b/w multi-AZ Read Replicas multi region
+In-memory DB- Elastic Cache
+key/value database : DynamoDB (serverless)   & DAX (cache fr DynamoDB)
+Warehouse-OLAP: Redshift(SQL)
+Haddop cluster : EMR
+Athena: query data on S3 (Serverless & SQL)
+Quicksight: dashboards on your data(serverless)
+DocumentDB: Aurora for Mongodb- work top of dynamoDB
+Glue: Managed ETL Service(Extract, Transform Load), data catelog service
+neptune: Graph dataset
