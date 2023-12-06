@@ -1,0 +1,17 @@
+AWS Athena -> Serverless query service to perform analytics against S3 objects 
+uses standard SQL language to query the files in S3
+
+it used to query and analyze the data that is loaded into S3 buckets
+Supports: JSON, CSV, ORC, Avro files
+
+Analyze data in S3 using serverless SQL, use Athena 
+
+AWS Quick sight -> Serverless machine learning - powered business intelligence service to create interactive dashboards
+Fast automatically scalable embeddable with pers session pricing 
+use cases:
+business analystics
+building visualizations
+perform ad-hoc analysis
+Get business insights using data
+
+Integrated with RDS, Aurora , Athena, Redshift and S3
