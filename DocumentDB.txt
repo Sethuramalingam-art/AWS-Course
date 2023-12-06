@@ -1,0 +1,30 @@
+AWS Aurora is AWS implementation of PostgreSQL/ MYSQL
+DocumentDB is same for MongoDB which noSQL DB
+it is used store query and index JSON data
+upto 10GB storage
+auto scaling with millions of req's per second 
+
+NoSQL DB (DynamoDB and Document DB)
+
+AWS Neptune
+Graph Database for graph datasets
+
+AWS QLDB (Quantam Ledger Database)
+A ledger is a book recording financial transactions
+fully managed serverless high available replication across 3 AZ
+used to review history of all the changes made to your application data overtime
+
+AWS Glue
+Managed extract, transform and load Service ETL
+useful to prepare and transform data for analystics
+serverless service
+GLUE ETL -> extract the data loaded in S3 or RDS and tranform the data and laod into the Redshift for right analystics
+
+
+DMA Database Migration Service
+quickly and securely migrate the DB to AWS 
+source database remains available during the migration
+it supports => oracle ot oracle
+MS SQL to Aurora
+
+
