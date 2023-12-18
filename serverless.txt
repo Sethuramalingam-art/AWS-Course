@@ -1,3 +1,10 @@
+
+"Event-driven" in Lambda means that functions are invoked when needed. They are triggered.
+
+Elastic Container Registry (ECR) is a service where you store your Docker image so they can be run by ECS or Fargate.
+
+Amazon API Gateway is a fully managed serverless service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
+
 Serverless is new paradigm in which the developers don't have to manage the servers anymore...
 they just deploy the code 
 they deploy the functions so it is Function as a Service(FaaS)
@@ -47,3 +54,6 @@ So CRON job's are run on linux vmi or linux machine but we are serverless so we 
 So instead of this we can use CLOUDWATCH event bridge(serverless). 
 
 CLOUDwatch event bridge trigger every one hour lambda functions to perform the task.
+
+
+AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory-optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.
