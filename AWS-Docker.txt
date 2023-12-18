@@ -1,10 +1,11 @@
 ECS-Elastic Container Service (docker images are runned by ECS)
--> new EC2 instance 
+-> new EC2 instance -> docker image -> docker container(these containers are run on ECS) -> ECS
 Launch docker containers on AWS 
 You must provision & maintain the infrastructure(EC2 instance) / AWS taking care of starting/ stopping containers 
 Has integrations with app load balancer
 
 Fragate
+-> docker image -> docker container(these containers are run on fragate) -> fragate
 Launch docker containers on AWS
 You do not provision the infrasturcture(no EC2 instance)
 serverless offering
