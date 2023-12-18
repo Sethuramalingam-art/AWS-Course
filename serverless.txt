@@ -1,0 +1,49 @@
+Serverless is new paradigm in which the developers don't have to manage the servers anymore...
+they just deploy the code 
+they deploy the functions so it is Function as a Service(FaaS)
+Serverless was pioneered by AWS lambda but now also includes anything that's managed : database, messaging, storage etc.,
+serverless does not mean there is no servers 
+
+Some serverless services
+AWS S3 -> we no need to provide server it will autoscale the servers
+DynamoDB ->  we no need to provide server it will autoscale the servers;
+Fargate -> docker container run top of fargate 
+Lambda -> run the functions
+
+
+Why AWS Lambda
+AWS EC2 ------------------------------------ AWS Lambda
+virtual servers in the cloud                 virtual functions - no servers to manage
+limited by RAM and CPU                       limited by time 
+continous running                            run on demand
+scaling means intervention add/ remove
+server                                       scaling automated
+
+
+benefits of AWS lambda
+integrated with the whole AWS suite of services
+Event-Driven -> function will invoked by aws whem needed
+easy monitoring with AWS cloud watch
+easy to get resources per function
+
+
+
+architecture of aws lambda
+step 1: 
+when we try to push random image into S3. When image is uploaded sucessfully
+step2 2:
+After successfull upload, it will trigger the AWS lambda functions and AWS lambda function creates a thumbnail
+step 3:
+and this thumbanil push into S3 bucket and image properties data push into dynamoDB
+step4: 
+S3, dynamoDB and lambda don't need any servers so this is a serverless deploymeny 
+
+
+Scenario2:
+Serverless CRON job
+When we want to run the scripts on schedule (like wise ever 1 hour or every morning or every monday).
+So CRON job's are run on linux vmi or linux machine but we are serverless so we can't use EC2 instance 
+
+So instead of this we can use CLOUDWATCH event bridge(serverless). 
+
+CLOUDwatch event bridge trigger every one hour lambda functions to perform the task.
