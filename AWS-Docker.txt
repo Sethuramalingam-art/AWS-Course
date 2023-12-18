@@ -1,0 +1,14 @@
+ECS-Elastic Container Service (docker images are runned by ECS)
+-> new EC2 instance 
+Launch docker containers on AWS 
+You must provision & maintain the infrastructure(EC2 instance) / AWS taking care of starting/ stopping containers 
+Has integrations with app load balancer
+
+Fragate
+Launch docker containers on AWS
+You do not provision the infrasturcture(no EC2 instance)
+serverless offering
+AWS just run the containers for you based on the CPU
+
+ECR (Elastic Container Registry) - private Docker registry on AWS
+this is where you store the ypur docker images so they can be run by ECS or Fragate
