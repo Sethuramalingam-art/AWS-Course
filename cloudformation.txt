@@ -1,0 +1,42 @@
+CloudFormation (AWS only)
+Infrastructure as Code, works with almost all of AWS resources
+Repeat across Regions and Accounts
+AWS CloudFormation provides a common language for you to model and provision AWS and third party application resources in your cloud environment. 
+It allows you to deploy Infrastructure as a Code.
+AWS CloudFormation templates are JSON or YAML-formatted text files. They are declarations of the AWS resources that make up a stack.
+
+Beanstalk (AWS only)
+Platform as service limited to certain programming languages or docker
+deploy code consistently with a known architecture ex. ALB+EC2+RDS
+Elastic Beanstalk can be used to monitor and to check the health of an environment.
+AWS Elastic Beanstalk makes it even easier for developers to quickly deploy and manage applications in the AWS Cloud. It does not automate software deployments to a hybrid mix.
+Elastic Beanstalk is a Platform as a Service (PaaS). You only manage data and applications. AWS Elastic Beanstalk makes it even easier for developers to quickly deploy and manage applications in the AWS Cloud
+
+Code Deploy: deploy and upgrade any application onto servers
+AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises.(hybird mix)
+
+Systems manager : patch configure and run commands at scale
+AWS Systems Manager gives you visibility and control of your infrastructure on AWS. It is used for patching systems at scale.
+
+code commit : store code in private git repo
+
+code build: build and test code in aws(serverless)
+AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy.
+It is not used to deploy infrastructure using familiar programming languages.
+AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. 
+With CodeBuild, you don’t need to provision, manage, and scale your own build servers, it is serverless.
+
+codedeploy: deploy code onto servers
+
+codepipeline: orchestration of pipeline from code to build to deploy
+
+codeartifact: store s/w packages dependies on aws
+AWS CodeArtifact is a fully managed artifact repository (also called code dependencies) service that makes it easy 
+for organizations of any size to securely store, publish, and share software packages used in their software development process.
+
+codestar: unified view for alloing dev's to do CICD and code.CodeStar is used to quickly develop, build, and deploy applications on AWS.
+
+Cloud9: Cloud IDE
+AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
+
+AWS CDK: The AWS Cloud Development Kit (AWS CDK) is an open source software development framework to define your cloud application resources using familiar programming languages. (only python)
