@@ -1,0 +1,14 @@
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. 
+Route 53 connects user requests to internet applications running on AWS or on-premises.
+The name for our service (Route 53) comes from the fact that DNS servers respond to queries on port 53 and provide answers that 
+route end users to your applications on the Internet. 
+
+Route 53 -> domains -> registered domain cost you a money -> domain is created
+And create two EC2 instance using our simple code 
+one from USA -> this ip is running in USA -> same domain names which we created with latency policy(route 53 policy)
+another from Ireland -> this ip is running in ireland -> same domain names which we created(route 53 policy)
+
+Now client user conencting from ireland s0 it will show from Ireland
+Now client user conencting from USA s0 it will show from USA
+
+So nearby regions it will route the application to decrease the latency
