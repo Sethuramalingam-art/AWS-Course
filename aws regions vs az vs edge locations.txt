@@ -1,0 +1,6 @@
+AWS regions
+Larger geographic areas with multiple availability zones. When building a solution for a specific geographic area, you select the region to build the solution in.
+AWS availability zones
+A group of data centers that are isolated from failures in other availability zones. They are used for hosting servers, websites, applications, software, and more.
+AWS edge locations
+Mini data centers that are spread out geographically to ensure fast delivery of content to users around the world. They are primarily used for caching data to provide a better user experience with low latency.
