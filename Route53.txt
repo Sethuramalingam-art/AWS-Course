@@ -9,6 +9,8 @@ DNS routing: Translates domain names into IP addresses to direct traffic to a we
 Health checking: Automatically routes users to a healthy resource if any failure is detected
 Route 53 also performs global server load balancing by routing each request to the AWS region closest to the requester's location
 
+Amazon Route 53 may be used to map domain names to Amazon EC2 instances, Amazon S3 buckets, Amazon CloudFront distributions, and other AWS services and also Users can fine-tune who may change their DNS data by combining the AWS Identity and Access Management (IAM) service with the Amazon Route 53
+
 Route 53 -> domains -> registered domain cost you a money -> domain is created
 And create two EC2 instance using our simple code 
 one from USA -> this ip is running in USA -> same domain names which we created with latency policy(route 53 policy)
