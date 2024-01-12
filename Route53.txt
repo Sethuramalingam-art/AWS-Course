@@ -3,6 +3,12 @@ Route 53 connects user requests to internet applications running on AWS or on-pr
 The name for our service (Route 53) comes from the fact that DNS servers respond to queries on port 53 and provide answers that 
 route end users to your applications on the Internet. 
 
+Route 53 can perform three main functions: 
+Domain registration: Registers the name for a website (domain name)
+DNS routing: Translates domain names into IP addresses to direct traffic to a website
+Health checking: Automatically routes users to a healthy resource if any failure is detected
+Route 53 also performs global server load balancing by routing each request to the AWS region closest to the requester's location
+
 Route 53 -> domains -> registered domain cost you a money -> domain is created
 And create two EC2 instance using our simple code 
 one from USA -> this ip is running in USA -> same domain names which we created with latency policy(route 53 policy)
