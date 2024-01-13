@@ -1,0 +1,47 @@
+Amazon Simple Queue Service (Amazon SQS)(FIFO policy) lets you send, store, and receive messages between software components at any volume, 
+without losing messages or requiring other services to be available.
+
+it will work like simply share message to queue and read from queue and once a time and send one message to one receiver(email or phone or another EC2 instance). No same messages to replication to multiple work nodes(receivers)
+
+details:
+https://shubhamkhandelwal523.medium.com/use-cases-of-aws-sqs-simple-queue-service-304967315c9e
+
+Amazon Simple Notification Service (Amazon SNS)(FIFO policy)(send one message to many receiver(email and phone and another EC2 instance and SQS queue and S3 bucket).) is a managed service that provides message delivery from publishers to subscribers (also known as producers and consumers).
+Publishers communicate asynchronously with subscribers by sending messages to a topic, which is a logical access point and communication channel. 
+Clients can subscribe to the SNS topic and receive published messages using a supported endpoint type, such as Amazon Kinesis Data Firehose, Amazon SQS, AWS Lambda, HTTP, email, mobile push notifications, and mobile text messages (SMS).
+
+
+Amazon MQ => it is a managed message broker service for Rabbit MQ
+amazon MQ doesn't scale as much as SNS/SQS
+amazon MQ is used only and only used the company migrating to cloud 
+
+
+SQS
+Queuing service in AWS
+Multiple producers messages are kept upto 14 days
+Multiple consumers share the read and delete messages done 
+used to decouple app's in AWS
+
+SNS
+Notification service in AWS
+pub/sub pattern
+subscribers: Email, lambda, SQS, HTTP, Mobile
+multiple subscribers send all messages to all of them
+no message rentention
+
+Aws MQ: managed message broker for ActiveMQ and RabbitMQ in the cloud (MQTT, AMQP protocols)
+
+Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers in the cloud.
+
+Amazon Simple Notification Service (SNS) is a highly available, durable, secure, 
+fully managed pub/sub messaging service that enables you to decouple microservices, 
+distributed systems, and serverless applications. It uses a push-based system.
+
+Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information. 
+Kinesis offers four services: Data Firehose, Data Analytics, Data Streams, Video Streams.
+
+When using SQS or SNS, you apply the "decouple your applications” principle. 
+This means that IT systems should be designed in a way that reduces interdependencies—a change or a failure in one component should not cascade to other components.
+
+Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, 
+distributed systems, and serverless applications. It uses a pull-based system.
