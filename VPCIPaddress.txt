@@ -1,0 +1,38 @@
+VPC - virtual private cloud - private n/w to deploy resources
+
+subnets : allows you to partition your network inside your VPC
+public subnet : it is a subnet that is accessible from internet
+private subnet not accessible from internet 
+define access to internet and b/w subnets, we use route tables 
+
+IP addresses in AWS
+
+IPV4 -> internet prtocol version 4 (4.3 billion addresses)
+Public IPv4 is used on internet
+EC2 instance get new ip address every time you stop and start it
+Private IPv4-can be used on private networks such as internal AWS networking
+Private IPV4 is fixed for EC2 instances even if you start/stop them
+
+Elastic IP -> fixed IP address to EC2 instance
+
+IPv6 - internet protocol version 6 (3.4 * 10power 38 addressess)
+every IP address is public 
+
+
+NAT Gateways allow your instances in your private subnets to access the Internet while remaining private, and are managed by AWS.
+
+A network access control list (NACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. 
+They have both ALLOW and DENY rules.
+
+Site-to-Site VPN allows you to enable access to your remote network from your VPC. It goes over the public internet. It does not connect VPCs together.
+
+AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated private network connection from your premises to AWS. While it allows to connect on-premises environments to your VPCs, 
+it does not allow your VPC to communicate with one another.
+
+VPC Peering connection is a networking connection between two VPCs using AWS' network.
+
+A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud.
+You can launch your AWS resources, such as Amazon EC2 instances, into your VPC.
+
+
+An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.
