@@ -1,0 +1,55 @@
+Cloud watch provide metrics for every services in AWS
+metric is a variable to monitor CPU utilization, netwroking
+metrics have timestamps
+can create cloudwatch dashboards of metrics 
+
+important metrics
+EC2 instances: cpu utilization status chaecks on every 5 min's
+EBS volumes : Disk read/writes
+S3 buckets: bucketsizebytes, noofobjects, all req's
+billing: total estimated charge
+service limits: how much we are using a service api
+custom metric: push our own metrics
+
+Alarms are used to trigger notifications for any metric
+ex: create a billing alarm on the cloud watch billing metric
+alarm states: OK, INSUUFICIENT DATA, Alarm 
+
+
+aws cloudwatch supports for create an alarm and attached to any aws services like EC2 instance. 
+Based on EC2 instance thresholds(what we config) we will get notified alarm service from cloudwatch
+
+AWS Cloudwatch logs can collect log from 
+  Elastic beanstalk: collection of logs from application
+  ECS from all containers
+  AWS lambda: collection from func logs
+  Route53: Log DNS queries
+Enable real time monitoring logs
+
+AWS Cloudwatch for EC2
+ By default, no logs from your EC2 instance will go to cloud watch
+we need to run the cloud watch agent on EC2 instance to push log files you want
+make sure IAM permissions are correct 
+cloudwatch agent setup on premisses too
+
+AWS Event bridge (formerly cloudwatch events)
+schedule: scheduled scripts => schedule every hour => trigger script on lambda function
+Event pattern => event rules to react to a service doing something => user signin => SNS/SQS notification
+Trigger lambda functions ,send SQS/SNS services 
+
+AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture.
+
+The CloudWatch Alarms feature allows you to watch CloudWatch metrics and to receive notifications 
+when the metrics fall outside of the levels (high or low thresholds) that you configure.
+
+Amazon CloudWatch Events delivers a near real-time stream of system events that describe changes in Amazon Web Services (AWS) resources. 
+It does not trigger notifications when a metric reaches a threshold you specified.
+
+AWS Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact you.
+
+AWS CloudTrail is a web service that records activity made on your account and delivers log files to your Amazon S3 bucket. AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
+CloudTrail can record the history of events/API calls made within you AWS account, which will help determine who or what deleted the resource. You should investigate it first.
+
+Amazon CodeGuru is a developer tool that provides intelligent recommendations to improve code quality and identify an application’s most expensive lines of code.
+
+You can use Amazon CloudWatch Logs to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, Route 53, and other sources.
