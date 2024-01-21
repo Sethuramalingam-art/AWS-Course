@@ -1,0 +1,20 @@
+IP addresses in AWS - IPv4 - Internet Portocol version 4 (4.3 Billion addresses)
+Public IPv4 - can be used on the internet 
+EC2 instance get new ip address every time when you stop and start the instance 
+
+Private IPv4 - can be used on private networks (LAN) such as internal AWS networking 
+Private IPv4 is fixed for EC2 instances even if u start/stop them
+
+
+Elastic IP -> it will attach a fixed public IPv4 address to EC2 instance
+
+IPv6 (3.4 * 10power 38 addresses)
+Every IP address is public
+
+VPC & subnets -> Virtual private cloud -> private n/w to deploy resources
+Subnets -> partition your n/w inside your VPC(AZ resource)
+public subnet is a subnet that is accessible fron the internet
+private subnet not accesible from d internet
+to define access to the internet and b/w subnets we use route tables
+
+
