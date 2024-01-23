@@ -1,0 +1,53 @@
+shared responsibilty on aws
+shield: Auto DDOS protection + 24 /7 support for advanced
+WAF: firewall to filter incoming requests based on rules
+KMS: encryption keys managed by AWS
+CLoud HSM : Hardware encryption 
+AWS certifcate manager : provision manage and deploy SSL/TLS certifictae 
+Artifact: get access to compliance reports such as PCI,ISO etc
+Guardduty:  find malicious behaviour with VPC , DNS and cloud trail logs
+inspector: find vulnerbitlites on EC2 ECR and lambda function
+n/w firewall: protect VPC from n/w attackes
+config: track config changes and complaince against rules
+macie: find sensitive data in S3
+cloudtrail: track aPI calls made by user within account
+AWS securiyt hub: gatehr secuirty findings from multiple accounts
+detective: find root cause of secuirty issues
+
+
+Data in transit means data transferred on the network. When data is sitting, it is not being transferred.
+
+Data at rest means data stored or archived on a device.
+
+The customer is responsible for firewall and network configuration. Customers are responsible for "Security IN the Cloud". It also includes server-side encryption, 
+client-side data protection, customer data protection, etc.
+
+AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
+It does not discover and protect your sensitive data in AWS.
+
+Amazon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS, such as personally
+identifiable information (PII) or intellectual property.
+
+Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. 
+It does not quickly find the root of potential security issues.
+
+Amazon Detective makes it easy to analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities.
+
+AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits that may affect availability, compromise security, 
+or consume excessive resources.
+
+AWS Artifact is your go-to, central resource for compliance-related information that matters to you.
+
+Penetration Testing is allowed without prior approval on 8 services. DDoS, port flooding and protocol flooding are examples of prohibited activities.
+
+AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
+
+AWS Certificate Manager is a service that lets you easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) 
+certificates for use with AWS services and your internal connected resources.
+
+AWS Security Hub provides you with a comprehensive view of your security state within AWS and your compliance with security standards and best practices.
+
+AWS KMS is a managed service that enables you to easily create and control the keys used for cryptographic operations. It is managed by AWS.
+
+Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. It helps you test the network accessibility of your Amazon EC2 instances and the security state of 
+your applications running on the instances.
