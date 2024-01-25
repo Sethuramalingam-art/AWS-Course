@@ -1,0 +1,13 @@
+AWS rekognition : face detection, labeling, celebrity recoginition
+AWS Poly -> convert text into audio format(text to audio)
+AWs Transcribe -> when record is going on what we speak that should be convert ot text and privacy things should be encrypted like ph no(audio to text)
+AWs Translate -> natural and accurate translation. amazon translate allows to localzied the content.(Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation. It does not use natural language processing (NLP).)
+Amazon Lex: Automatic speech recognization to convert speech to text. Helps chatbots, call center bots
+Amazon connect - >receive calls create conteact flows, cloud based virtual contact center
+Aws comprehend -> natural language processing
+ML services
+fully managed and servelress service
+sagemaker -> data sceintists to build ML models 
+forecast -> uses ML to highly accurate forecasts. ex: future sales of a raincoat
+kendra-> document search engine service powered by machine learning
+Amazon Transcribe is an AWS service that makes it easy for customers to convert speech-to-text.
